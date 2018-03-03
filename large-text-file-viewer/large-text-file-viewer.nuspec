@@ -7,11 +7,13 @@
     <owners>Mark Webb</owners>
     <title>Large Text File Viewer (Portable)</title>
     <authors>Tie-Qi Chen</authors>
+    <iconUrl>https://raw.githubusercontent.com/webbwebbwebb/chocolatey-packages/386c15cd/icons/large-text-file-viewer.png</iconUrl>
     <projectUrl>https://web.archive.org/web/20140920225437fw_/http://www.swiftgear.com:80/</projectUrl>
     <copyright>2009 SwiftGear</copyright>
     <licenseUrl>https://web.archive.org/web/20140701235304fw_/http://swiftgear.com/copyright_information.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Large Text File Viewer was designed for viewing large (>1GB) text files (with either Unicode or regular ANSI character set)</summary>
+    <tags>largetextfileviewer swiftgear text viewer utility portable</tags>
     <description><![CDATA[Large Text File Viewer was designed for viewing large (>1GB) text files (with either Unicode or regular ANSI character set). It uses little memory and is able to open a gigabyte file instantly.
 
 ## Features
@@ -51,6 +53,9 @@
 - No installation is needed.
 - The executable is only 572KB!
     ]]></description>
+    <releaseNotes>Several bugs in version 5.1 have been fixed. Once again, many thanks to the prompt bug reports from the LTF Viewer users. One major bug is:
+The program hangs while reading files with large average line length.
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
